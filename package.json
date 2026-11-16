@@ -1,0 +1,13 @@
+{
+  "name": "neon-blocks-relay",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Relay WebSocket con salas para NEON BLOCKS ONLINE",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}

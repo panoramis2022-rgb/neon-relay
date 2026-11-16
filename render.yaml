@@ -1,0 +1,9 @@
+# Render Blueprint: despliegue con un clic (New + -> Blueprint)
+services:
+  - type: web
+    name: neon-relay
+    runtime: node
+    plan: free
+    region: frankfurt
+    buildCommand: npm install
+    startCommand: npm start
